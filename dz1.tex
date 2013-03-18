@@ -1,0 +1,66 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+$$
+z=x^2+xy+y^2-4\ln {x}-10\ln {y}
+$$
+
+$$
+y=\sqrt[3]{1+\sqrt[3]{1+\sqrt[3]{x}}}
+$$
+
+$$
+\lim_{x \to 0}\frac{\sqrt{1+\tg{x}}-\sqrt{1+\sin{x}}}{x^3}  
+$$
+
+$$
+I_n= \int_{0}^{\frac{\pi}{4}} \left(\frac{\sin{x}-\cos{x}}{\sin{x}+\cos{x}}\right)^{2n-1}
+$$
+
+$$
+\sum \limits_{n=1}^\infty \frac{1\cdot3\ldots(2n-1)}{2\cdot4\ldots(2n)}\left(\frac{2x}{1+x^2}\right)^n
+$$
+
+$$
+f{(t)}=\begin{cases}
+\frac{\pi-x}{2} & \text{при } 0 < x \leqslant \pi, \\
+-\frac{\pi+x}{2} & \text{при } -\pi \leqslant x < 0,  \\
+0 & \text{при } x=0.
+\end{cases}
+$$
+
+$$
+A_{e_2} \begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}\begin{pmatrix}
+0 \\
+1 \\
+0
+\end{pmatrix}=\begin{pmatrix}
+2 \\
+5 \\
+8
+\end{pmatrix};
+$$
+
+\textbf{2. Формула Тейлора.} Если: 1)функция $f(x)$ определена на сегменте $[a,b]$; 2)$f(x)$ имеет на этом сегменте непрерывные производные $f'(x), \ldots, f^{(n-1)}(x)$;3)при $a<x<b$ существует конечная производная $f^{(n)}(x)$, то 
+$$
+f(x) = \sum \limits_{k=1}^{n-1} \frac{f^{(x)}(a)}{k!}\left(x-a\right)^k+R_n(x) \quad (a \leqslant x \leqslant b),
+$$
+
+$$
+R_n(x)= \frac{f^{(n)}\left(a+\theta \left(x-a\right)\right)}{n!}\left(x-a\right)^n \quad (0<\theta<1)
+$$
+\it{(остаточный член в форме Лагранжа), или}\rm
+$$
+R_n(x)= \frac{f^{(n)}\left(a+\theta_1 \left(x-a\right)\right)}{(n-1)!}\left(1-\theta_1\right)^{n-1}\left(x-a\right)^n \quad (0<\theta<1)
+$$
+\it{(остаточный член в форме Коши)}\rm
+
+\end{document}
